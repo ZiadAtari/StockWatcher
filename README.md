@@ -23,14 +23,14 @@ State Management: React Hooks (useState, useEffect)
 Dependency Management: npm
 
 ## Screenshots
-Home Page
+### Home Page
 
 ![Home Screenshot](Photos/StockViewerHome.png)
 
 
 
 
-Stock Profile Page
+### Stock Profile Page
 
 ![Profile Screenshot](Photos/StockViewerProfile.png)
 
