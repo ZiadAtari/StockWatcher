@@ -1,0 +1,36 @@
+AlphaVantage
+Stock API 
+Yahoo Finance
+
+General Page with top gainers etc
+Search and Specific data page
+
+
+Main Features:
+- Stock App with API support from Alpha Vantage
+- Similar UI to Yahoo finance
+- Comprised of 2 main page types
+    1. General Home Page
+        - Top Gainers and Losers
+        - Highlights Important Stocks
+    2. Stock Profile
+        - Accesible via Search function
+        - Shows Relevant stock data
+        - Presents Historical Data via Graph
+
+<View style={styles.stockBar}>
+      <View style={styles.stockBox}>
+        <Text style={{ fontSize: 25, borderBottomWidth: 2 }}>{dataSpecific["Meta Data"]["2. Symbol"]}</Text>
+        <Text style={{ fontSize: 18, borderBottomWidth: 1 }}>{latestTimestamp}</Text>
+        <Text>Open: {latestData["1. open"]}</Text>
+        <Text>High: {latestData["2. high"]}</Text>
+        <Text>Low: {latestData["3. low"]}</Text>
+        <Text>Close: {latestData["4. close"]}</Text>
+        <Text>Volume: {latestData["5. volume"]}</Text>
+      </View>
+
+
+    </View>
+
+
+        
